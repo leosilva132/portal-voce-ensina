@@ -5,7 +5,6 @@ export default function initMenuMobile() {
   const menuList = document.querySelector('[data-menu="list"]');
   const menuIcon = document.querySelector('.hb-menu');
   const eventos = ['click', 'touchstart'];
-  console.log('[data-menu="list"]');
   if(menuButton) {
   function openMenu(event) {
     menuList.classList.add('ativa');
